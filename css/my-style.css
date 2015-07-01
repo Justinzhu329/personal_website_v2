@@ -1,0 +1,56 @@
+body {
+	padding-top: 50px;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.jumbotron h1,
+.jumbotron p {
+	padding: 0 10%;
+}
+
+#myCarousel {
+	//min-height: 530px;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+
+.carousel-indicators li {
+	border-color: lightblue;
+}
+
+.carousel-indicators .active {
+	background-color: #222;
+}
+
+.skill-list {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.skill-list li {
+	padding: 10px 20px;
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	background-color: #add8e6;
+	text-align: center;
+	border-radius: 2.5%;
+}
+
+#personal-image {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#personal-image img {
+	border-radius: 50%;
+}
+
+#contact-list li {
+	padding: 5px 0;
+}
